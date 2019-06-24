@@ -1,18 +1,22 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
+    <Continents />
   </div>
 </template>
 
 <script lang="ts">
 import Vue from "vue";
-import HelloWorld from "./components/HelloWorld.vue";
+import Continents from "./components/Continents.vue";
 
 export default Vue.extend({
   name: "app",
+  data: () => ({
+    name: "André Gomes",
+    age: 25
+  }),
   components: {
-    HelloWorld
+    Continents
   }
 });
 </script>

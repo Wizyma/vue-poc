@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Continents-Component Continents-Component with responseshould render correctly  1`] = `
+<div>
+  <div>
+    Loading....
+  </div>
+</div>
+`;
+
+exports[`Continents-Component Continents-Component without responseshould render correctly  1`] = `
+<div>
+  <div>
+    Loading....
+  </div>
+</div>
+`;

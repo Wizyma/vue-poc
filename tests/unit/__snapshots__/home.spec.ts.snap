@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VueComponent VueComponent with all propsshould render correctly  1`] = `
+<div>
+  <h1>My name is Xin Zhao</h1>
+  <h2>And i am 25 years old</h2>
+</div>
+`;
+
+exports[`VueComponent VueComponent without propsshould render correctly  1`] = ``;
